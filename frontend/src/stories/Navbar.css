@@ -1,0 +1,71 @@
+.Navbar {
+display: flex;
+align-items: center;
+height: 6rem; 
+font-family: sans-serif;
+margin: 10px;
+}
+
+.Navbar h1 {
+margin-left: 0.5rem; 
+font-size: 1.875rem; 
+color: #111827; 
+}
+
+.Navbar-list {
+display: flex;
+align-items: center;
+gap: 3rem; 
+font-weight: 600; 
+font-size: 1.125rem;
+color: #111827;
+margin-left: auto; 
+}
+
+.Navbar-list a {
+color: #111827; 
+text-decoration: none;
+}
+
+.Navbar-list a:hover {
+color: #4b5563;
+}
+
+.Navbar-profile {
+position: relative;
+}
+
+.Navbar-profile .Navbar-profile-icon {
+color: #111827;
+height: 1.5rem; 
+width: 1.5rem; 
+margin-top: 0.25rem; 
+margin-right: 1rem; 
+cursor: pointer;
+}
+
+.Navbar-profile .Navbar-logout {
+position: absolute;
+top: 100%;
+right: 0;
+background-color: #111827; 
+color: #f9fafb; 
+padding: 0.5rem 1rem; 
+border-radius: 0.375rem; 
+}
+
+.Navbar-switch {
+margin-right: 1.75rem; 
+}
+
+.Navbar-line {
+border: none;
+border-top: 1px solid #e5e7eb; 
+}
+  
+
+.signin{
+    text-decoration: none;
+    font-size: 1.25rem;
+    margin-right: 25px;
+}
